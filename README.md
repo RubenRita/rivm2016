@@ -25,12 +25,12 @@ If you don't have one yet, first enter this:
     pip install -r requirements.txt
 
 # Run 1-Module
-(env)...$ python src/importcsv2sql.py
+    (env)...$ python src/importcsv2sql.py
 First we will run the script to read the csv file and store all data in sqlite 
 If there is no table yet created, the program is prompted to create one. Note: all tables will be erase everytime this script is executed.
 
 # Run Flask 
-(env)...$ python app.py
+    (env)...$ python app.py
 if doesnt have errores you should have this 
  * Serving Flask app 'app' (lazy loading)
  * Environment: production
@@ -52,13 +52,14 @@ then add http://192.168.1.88:5000//graphql, to test the GraphQL
 First install docker https://docs.docker.com/engine/install/
 
 # Execute composer
-then execute this command (env)...$ docker-compose up
+then execute this command 
+    (env)...$ docker-compose up
 It takes a few minutes to create the image and install all requirements
 
 
 # Todo_
-Unittests
-Is missing but is important to add
+    Unittests
+    Is missing but is important to add
 
-create better UI
-create POST
+    create better UI
+    create POST
